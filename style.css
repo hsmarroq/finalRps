@@ -1,0 +1,127 @@
+/* Everything */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* BODY */
+body {
+  background: url(/images/nucleat-battleground.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+/* Header */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#h1-greet {
+  margin: 20px;
+}
+
+/* Battleground */
+#outer-battleground {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#battleground {
+  background-color: black;
+  height: 400px;
+  width: 300px;
+  margin-top: 50px;
+  border-radius: 20px;
+  background: url(/images/paper-background.jpeg);
+}
+
+/* Battleground stats */
+#scores {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  margin-top: 150px;
+}
+
+.outer-reset-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#reset-btn:hover {
+  background-color: rgb(117, 115, 115);
+  cursor: pointer;
+}
+
+#reset-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50px;
+  background-color: rgb(87, 86, 86);
+  width: 100px;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+#human-score {
+  color: #333;
+}
+
+#computer-score {
+  color: #333;
+}
+
+#live-comments {
+  color: #333;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+/* Weapons Section */
+.weapon-divs {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.weapon-pics {
+  height: 80px;
+  width: 80px;
+  border-radius: 10px;
+}
+
+.rock-pic:hover {
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+
+.paper-pic:hover {
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+
+.scissors-pic:hover {
+  filter: grayscale(100%);
+  cursor: pointer;
+}
+
+/* Hidden */
+.hidden {
+  display: none;
+}
